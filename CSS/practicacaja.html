@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="practicacaja.css">
+</head>
+<body>
+
+    <h1 id="titulo principal">Modelo de caja</h1>
+    <section id="Descripcion">
+        <h2 id="tdescripcion" class="subtitulo">Descripcion</h2>
+        <p id="textodescripcion1" class="normal inicial">
+            La especificacion de css asume que el documento se modelo como un <em class="termino"> árbol de elemntos.</em>Cada elemnto contiene una lista ordenad de cero o mal elementos secundarios, con una cadena opcional de texto antes de la lista, enmedio
+            de los hijos y despues de la lista. El unico elemento que no tiene padre se llama <em class="termino">Elemento raíz</em>
+        </p>
+        <p id="textodescripcion2" class="normal">
+            Css describe como debe posicionarse cada elemnto y cada cadena de texto, transformando un arbol de documentos en un arbol de cajas rectángulares cuyo tamaño y/o posiciones depende de sus propiedades.Eexisten
+            <em class="termino">Caja a nivel de bloque</em>,
+            <em class="termino">Cajas a nivel de linea</em>,
+            <em class="termino">Caja a nibel de interno(inline)</em>, una caja a nivel de bloque es como un parrafo, una caja a nivel de linea es como una linea de texto y las cajas a nivel interno son como las palan¿bras de una linea. 
+        </p>
+        <p id="textodescripcion3" class="normal">
+            Las tres cajas se s¿relacional estrechamente con el árbol de elemnto. Cada elemnto se transforma en cero o mas cajas, si el elemnto no es la raíz, entonces cada una de sus cajas es un hijo de una caja de un elemnto padre o un hijo de la caja de su propio elemnto.
+            En otras palabras, puede ver mas o menos cajas que elemntos, pero cada caja pertenece a un elemento. 
+        </p>
+        <p id="textodescripcion4" class="normal">
+            Las propiedades se establecen sobre los elemntos e influyen en la forma en qie cada elemento se convierte en cajas, pero en esta espesificación hay una intercambialidad de la propia p de un elemnto y que la propiedad p de una caja a menos de que sea importante
+            distinguier entre la caja y el elemnto, p cuando el elemntotiene varias cajas y no todas ellastienen el mismo valor para la propiedad.
+
+        </p>
+
+        <div class="figura">
+            <img src="m.png" alt="paisaje" id="modelocaja" class="diagrama" width="500px" height="400px">
+            <figure id="diagrama caja">
+                <figcaption id="figura1" class="titulo figura"> Figura 1. modelo de caja en css</figcaption>
+            </figure>
+
+        </div>
+        <p id="textodescripcion5" class="normal">
+            Las cajas tienen relleno, un borden y imagenes.
+        </p>
+
+        <p id="textodescripcion6" class="6">
+            cadqa caja tiene un <em class="termino">área de contenido</em>. el rectangulo que rodea esta área es la <em class="termino">orilla del contenido</em>. al rededor del area de contenido esta el <em class="termino">área del relleno</em> sur bordes exteriores son llamados la <em class="termino">Area de borde</em> y el limite exterior de esta área es la <em class="normal">orilla del borde</em> finalmente por fuera del borde se encuentra el <em class="termino">orilla del margen</em>.
+            
+        </p>
+
+        <p id="textodescripcion7" class="normal">
+            cuando la espesificación deice que el borde de relleno está austante, en algún lugar de la caja, en realidad significa que su ancjo es corto.
+        </p>
+
+        <p id="textodescripcion8" class="normal">
+            Una caja es <em class="termino"> horizontal
+            </em> si su propiedad <em class="propiedad">block-progression</em> tiene un valor de <em class="valor">tb</em>
+           
+        </p>
+
+
+    </section>
+    <section id="tiposdecajaS">
+        <h2 id="tpcajas"> Tipos de cajas</h2>
+        <p id="tptcajas1" class="normalinicial">
+            La propiedad <em class="propiedad">display</em> en conjunto con <em class="propiedad">float</em> y <em class="propiedad">position</em>determinan el tipo de caja que se genera para un elemento. los valores son los que sigue:
+        </p>
+        <dl id="listatipocaja" class="definiciones">
+            <dt id="cinline" class="concepto">inline</dt>
+            <dt id="dinline" class="definicion">cajas de linea</dt>
+
+            <dt id="cinline" class="concepto">block</dt>
+            <dt id="dinline" class="definicion">cajas de bloque</dt>
+            
+            <dt id="cinineblock" class="concepto">inine-block</dt>
+            <dt id="dinilineblock" class="definicion">Una caja de bloque que es seguida por una sola caja en linea, de manera similar a un elemento remplazado. El interor de un bloque de linea se formatea como una caja negra y la caja por si mismo es formateda como una caja de linea</dt>
+            <dt id="clistiten" class="conceptp">list-item</dt>
+            <dt id="clistitenn" class="definicion">una o más cajas de bloques y una o mas cajas de mercado se define en las listas de modulo.</dt>
+            <dt id="cruin" class="concepto">run-in</dt>
+            <dt id="druin" class="definicion">Cajas de bloqueo o de linea, dependiendo el contextp. las propiedades se aplica a cajas de ejecucion interna(run-in) en base a su estado final</dt>
+            
+        </dl>
+    </section>
+    
+
+
+
+
+
+
+    
+    
+</body>
+</html>

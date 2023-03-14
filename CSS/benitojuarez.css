@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     background: url(https://th.bing.com/th/id/R.68999a019921519a7da5fbd054863cbd?rik=WzxYclBF394L7w&pid=ImgRaw&r=0);
+}
+
+.divv h2{
+    margin: 10px;
+    background-color: green;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: wheat;
+    text-align: center;
+    width: 500px;
+    height: 500x;
+    margin-left: 100%;
+    padding: 2px;
+   
+}
+.divv p{
+    margin: 20px;
+    background-color: red;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 200px;
+    height: 20px;
+    margin-left: 140%;
+    padding: 2px;
+}
+.divv{
+    width: 400px;
+    height: 300px;
+}
+#id{
+    background-color: rgb(99, 161, 161);
+    width: 500px;
+    height: 100px;
+    padding: 4px;
+    margin-left:400px;
+    color: black;
+}
+#o{
+    width: 250px;
+    height: 250px;
+
+}
+

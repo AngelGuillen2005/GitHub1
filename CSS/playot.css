@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 1000px;
+    margin: 15px auto;
+    overflow: hidden;
+}
+body{
+    background-color: rgb(95, 78, 102);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+header{
+    background-color: white;
+
+}
+header nav{
+    width: 100%;
+    overflow: hidden;
+}
+header nav ul li{
+    float: left;
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 15px 20px;
+}
+header nav ul li a:hover{
+background: black;
+   color: whitesmoke;
+}
+.main{
+    width: 700px;
+    background: white;
+    float: left;
+}
+.main .imagen img{
+    width: 100%;
+    vertical-align: top;
+}
+.main .publicacion{
+    padding: 45px;
+}
+.main .publicacion article h2{
+    margin-bottom: 20px;
+    color: lightgray;
+
+}
+.main .publicacion article p{
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+aside{
+    width: 300px;
+    background: #161f26;
+    padding: 20px;
+    color: wheat;
+    float: left;
+}
+aside .widget{
+    margin-bottom: 20px;
+}
+aside  .t{
+    color: orange;
+    border-bottom: 2px solid; color: orange;
+    margin-bottom: 10px;
+}
+
+aside .widget ul{
+    list-style: none;
+}
+aside .widget ul li{
+    border-bottom: 2px solid rgba(255, 255, 255, 255);
+    padding: 12px 0;
+}
+aside .widget ul li a{
+    color: white;
+    text-decoration: none;
+}
+aside .widget ul li a:hover{
+    color: crimson
+}
+aside .widget p{
+    line-height: 25px;
+
+}
+footer{
+    width: 70%;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    overflow: hidden;
+
+}
+@media(max-width:750px){
+    body{
+        background: black;
+    }
+    header nav ul li a{
+        float: right;
+    }
+    
+    .main .publicacion article h2{
+        color: aliceblue;
+        border-bottom: 1px solid white;
+    }
+    .main{
+        width: 100%;
+        background: black;
+color: aliceblue;
+    }
+    aside{
+        width: 100%;
+    }
+}
+

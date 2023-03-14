@@ -1,0 +1,148 @@
+body{
+    font-family: 'Angel', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @import url(https://kinsta.com/es/blog/fuentes-seguras-para-la-web/#11-courier-new);
+
+}
+#principal{
+    background-image: url(image.png);
+    background-size: 200px 200px;
+}
+.centro{
+    padding-left: 10%;
+    padding-right: 20%;
+}
+.izquierda{
+    padding-right: 90%;
+    position: fixed;
+}
+#notaizquierda{
+    color: black;
+    font-size: small;
+    padding: 12px;
+    border-style: ridge;
+    font-weight: bold;
+    background-color: rgb(216, 177, 23);
+    border-radius: 5px;
+}
+.derecha{
+    padding-left: 80%;
+    position: fixed;
+}
+#nota1{
+    padding: 5px;
+    background-color: blueviolet;
+    border-style: inset;
+    font-weight: bold;
+    font-size: small;
+    border-radius: 5px;
+
+}
+section, header{
+    background-color: rgb(255, 251, 182);
+    padding: 10px;
+
+
+}
+h1{
+    font-size: medium;
+    color: dimgrey;
+    background-color: bisque;
+    padding-inline-start: 10px;
+    text-align: center;
+
+}
+h2{
+    color: blue;
+    border-bottom: crimson;
+    border-bottom-style: solid;
+}
+h3{
+    color: black;
+    background-color: aqua;
+}
+em.propiedad{
+    color: cadetblue;
+    font-weight: bold;
+    font-style: normal;
+}
+em.valor{
+    color: red;
+    font-weight: bold;
+    font-style: normal;
+}
+aside#nota2{
+    padding: 5px;
+    background-color: rgb(78, 160, 160);
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+}
+p.normal :hover,
+p.inicial :hover,
+li.itemnivel3:hover,
+header:hover{
+    font-size: large;
+}
+p.inicial::first-letter{
+    font-size: large;
+    font-family: cursive;
+
+}
+p:hover,
+li:hover,
+header:hover{
+    background-color: darkgreen;
+}
+img#pflotante{
+    float: inline-end; 
+}
+img#pabsoluto{/* La caja la manda para la izquierda o derecha lo mas posible*/
+    position: obsolute;
+    padding: 20px;
+}
+.cajapadre{
+    margin: 20px;
+    width: 50px;
+    height: 500px;
+    background-color: crimson;
+    position: relative;
+}
+
+/*relativo mueves una caja y no la puedes mover a su posicion primera*/
+/*img#relativo{}*/
+
+img#pfijo{
+    position: fixed;
+    /*No me va a permitir mover la caja, la pantalla del usuario siempre va ser lo mismo*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

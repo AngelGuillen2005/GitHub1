@@ -1,0 +1,27 @@
+ * {
+    /* Selector universal*/
+    margin: 20px;
+}
+
+div{
+    background-color: blueviolet;
+}
+
+h3{
+   background-color: chartreuse;
+}
+
+div p a{
+    color: rgb(224, 32, 32);
+}
+.contenedor{
+    background-color: rgb(133, 133, 143);
+}
+input[type="text"]{
+    background-color: brown;
+    text-decoration: underline
+;
+}
+#li{
+    font-size: 24px;
+    }

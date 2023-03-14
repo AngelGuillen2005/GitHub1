@@ -1,0 +1,60 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+padding-left: 5%;
+text-align: justify;
+padding-right: 5px;
+background: url(oli.jpg);
+
+/*font-size: 1em;Relativo al tamaño de fuente que tenga su elemnto padre o elemnto mas cercano letras
+font-size: 25%;
+font-size: 1rem;Relativo al tamaño de fuente espesificada en el body*/
+}
+h1{
+    text-align: center;
+    background-color: blueviolet;
+    color: brown;
+}
+h2{
+    color: crimson;
+}
+em{
+    color: rgb(52, 72, 152);
+}
+em.termino{
+    font-weight: bold;
+}
+img{
+    padding: 18px;
+    border-style: ridge;
+}
+em.propiedad{
+    color: chartreuse;
+    font-weight: bold;
+    font-style: normal;
+}
+em.valor{
+    border-style: solid;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-width: thin;
+
+}
+p.first-letter{
+    color: greenyellow;
+    font-size: large;
+    font-weight: bolder;
+}
+dt.concepto{
+    color: darkgreen;
+    font-weight: bold;
+}
+figcaption{
+    color: yellow;
+}
+p#textodescripcion7{
+    font-style: italic;
+
+    background-color: darkred;
+
+}

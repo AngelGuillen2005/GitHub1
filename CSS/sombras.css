@@ -1,0 +1,24 @@
+body{
+    background-color: blueviolet;
+}
+h1{
+    text-shadow: 2px 2px 5px crimson;
+    /*Efecto difuminado*/
+}
+.profundidad{
+    color: antiquewhite;
+    text-shadow: 2px 2px 3px black;
+}
+.card{
+    width: 250px;
+    
+}
+.header{
+    color: blanchedalmond;
+    background: chartreuse;
+    font-size: 35px;
+    padding: 10px;
+}
+.contener{
+    padding: 10px;
+}

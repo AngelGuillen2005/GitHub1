@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Contenedor{
+    width: 100%;
+    height: 99.99vh;
+    background: #3a0228;
+    position: relative;
+    display: flex;
+}
+
+.Contenedor::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.067), transparent 1px, transparente 10px), repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.067) 0px,  rgba(0, 0, 0, 0.067) 1px, transparent 1px, transparente 10px) ;
+
+}
+
+.Contenedor .Tarjeta{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    transition: .5s ease-in-out;
+    overflow: hidden;
+    color: aqua;
+}
+
+.Contenedor .Tarjeta:hover{
+    flex-grow: 3;
+    background: #1a1a1a;
+}
+.Contenedor .Tarjeta ion-icon{
+    font-size: 15vw;
+}
+.contenedor .Tarjeta:hover ion-icon{
+    font-size: 25vw;
+    color: white;
+    filter: drop-shadow(0 0 14px rgb(173, 179, 7))
+}
